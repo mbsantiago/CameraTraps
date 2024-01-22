@@ -10,3 +10,5 @@ PytorchWildlife.egg-info/
 *setup/*
 *dist/*
 *VSCodeCounter*
+.pdm-python
+pdm.lock
