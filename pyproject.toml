@@ -36,9 +36,7 @@ dependencies = [
     "tqdm>=4.66.1",
     "Pillow>=9.4.0",
     "supervision>=0.16.0",
-    "gradio>=4.15.0",
     "ultralytics-yolov5>=0.1.1",
-    "pydantic>=1.10",
 ]
 
 [project.urls]
@@ -47,3 +45,10 @@ Homepage = "https://github.com/microsoft/CameraTraps/"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+include = ["PytorchWildlife"]
+pythonVersion = "3.7"
+
